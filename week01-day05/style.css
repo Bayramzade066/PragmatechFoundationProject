@@ -1,0 +1,9 @@
+p {
+    color: white;
+    background-color: #772222;
+    padding: 10px;
+    transition: all .3s cubic-bezier(0.25, 0.1, 0, 1.08);
+}
+
+
+/*  */
