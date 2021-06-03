@@ -1,0 +1,17 @@
+* {
+  margin-top: 120px;
+}
+
+.container {
+  width: 1060px;
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+.column {
+  width: 200px;
+  height: 120px;
+  border: 1px solid black;
+  margin: 30px;
+  display: inline-block;
+}
