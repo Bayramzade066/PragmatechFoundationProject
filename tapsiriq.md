@@ -2,11 +2,12 @@
 
 **1ci sual:Grid Layout, Flex və 12 column grid sistemi arasında ən əhəmiyyətli fərqlər nələrdir?**
 ---------
-*cavab:*
+*cavab:grid ve flex arasindaki ferq odur ki grid daha dinamik, modern ve ozellikleri daha coxdur. flex tek yonde nizamlaya bilir gridle ise eyni anda 2 yondede nizamlama mumkundur
+yeni daha sade formada desek grid istifade ederek daha qarisiq tenzimlemeler etmek mumkundur.
 
 **2ci sual:justify-content: space-between və space-around xüsusiyyətlərini tətbiq edərkən məsafələr nəyə görə tənzimlənir?**
 ---------
-*cavab:*
+*cavab:mesafeler daxilinde oldugu elementin olcusune esasen tenzimlenir. space-around olduqda elementler arasinda beraber mesafeler yaradir. space-between ise ilk element basda son element ise sonda olmaq serti ile beraber mesafeler halinda tenzimleyir*
 
 *3cu sual:px, %, em,rem kimi ölçüləndirmə üsulları arasında hansı fərqlər var?*
 ---------
