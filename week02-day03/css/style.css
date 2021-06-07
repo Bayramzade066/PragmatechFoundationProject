@@ -1,0 +1,17 @@
+.bg-primary {
+  background: red;
+}
+
+.bg-secondary {
+  background: yellow;
+}
+
+.bg-main {
+  background: gray;
+}
+
+.item {
+  border: 1px solid gray;
+  margin: 10px;
+  height: 100px;
+}
