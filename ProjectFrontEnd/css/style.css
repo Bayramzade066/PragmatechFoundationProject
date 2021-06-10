@@ -1,6 +1,19 @@
 /* reset*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
 
-body,
 ul {
   margin: 0px;
   padding: 0px;
@@ -8,7 +21,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(25, 59, 25);
+  color: #333333;
   padding: 5px;
 }
 
@@ -20,6 +33,12 @@ li {
 input {
   border: none;
 }
+i {
+  width: 20px;
+  height: 20px;
+  color: black;
+  font-style: italic;
+}
 
 /* Common Classes */
 
@@ -28,6 +47,12 @@ input {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.kp-icon {
+  padding: 10px;
+  width: 19px;
+  height: 20px;
 }
 
 .kp-flex {
@@ -53,12 +78,29 @@ input {
   justify-content: space-around;
 }
 
+.kp-justify-center {
+  justify-content: center;
+}
+
+.kp-direction-row {
+  flex-direction: row;
+}
+
 .kp-search {
-  width: 200px;
+  width: 265px;
   height: 30px;
   border-bottom: 1px solid rgb(4, 19, 4);
-  display: flex;
-  flex-direction: row;
+}
+.kp-search-input:hover {
+  border: none;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
 }
 
 /* Custom Classes*/
@@ -68,17 +110,117 @@ input {
 }
 
 #kp-navbar {
-  padding: 25px 0px;
-  border: 1px solid rgb(4, 19, 4);
+  width: 1160px;
+  height: 135px;
+
+  margin: 0px 20px;
+
+  border: 1px solid rgb(5, 29, 5);
+}
+.col-4 {
+  flex-direction: row;
+  width: 408px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 10px;
+  border-bottom: solid 3px #fff;
 }
 
-.kp-nav ul li a {
-  border-radius: 7px;
-  border: 1px solid rgb(4, 19, 4);
+.kp-icon-user {
+  width: 19px;
+  height: 20px;
+  margin-left: 20px;
+  background-image: url(../images/user-icon-brown.png);
+}
+.kp-icon-favori {
+  width: 19px;
+  height: 20px;
+  margin-left: 30px;
+  background-image: url(../images/star-icon-brown.png);
+}
+.kp-icon-contact {
+  width: 19px;
+  height: 20px;
+  margin-left: 10px;
+  background-image: url(../images/talk-icon-brown.png);
+}
+.kp-icon-bag {
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+  background-image: url(../images/bag-icon-white.png);
+}
+.item-bag {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px;
+  background: #7db937;
+  color: #fff;
+}
+.item-bag a {
+  align-items: center;
+  padding: 0px 20px 2px 20px;
+}
+
+.item-bag i,
+.item i {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.col-4 .item span,
+.col-4 .item-bag span {
+  font-size: 16px;
+  display: block;
+  margin-top: 4px;
+}
+
+.kp-nav a:hover {
+  color: #333333;
+}
+
+.row {
+  background: whitesmoke;
+  width: 1140px;
+  height: 90px;
+  margin: 0px 20px 5px 20px;
+}
+.kp-search-input {
+  margin-right: 70px;
+  background: none;
+}
+.row2 {
+  width: 1140px;
+  margin-left: 5px;
+}
+.container {
+  width: 1180px;
+  height: 135px;
+  margin: 0px 342px;
+  padding: 0px 20px;
+}
+.kp-nav2 ul li a {
+  color: #ffffff;
+  padding: 10px;
+}
+.kp-nav2 ul li {
+  margin-top: 1px;
   margin-left: 10px;
 }
 
-.kp-nav ul li a:hover {
-  background: rgb(32, 48, 8);
-  color: whitesmoke;
+.kp-nav2 ul li a:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+body {
+  background-image: url(https://i.redd.it/m2klgf846i801.jpg);
 }
