@@ -176,6 +176,14 @@ i {
   background-position: center;
   display: inline-block;
 }
+.item a {
+  margin: 10px auto;
+}
+
+.item a:hover {
+  color: #7db937;
+  border-bottom: 3px solid #7db937;
+}
 .col-4 .item span,
 .col-4 .item-bag span {
   font-size: 16px;
