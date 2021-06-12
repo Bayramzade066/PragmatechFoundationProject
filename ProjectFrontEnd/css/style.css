@@ -13,6 +13,9 @@ body {
   line-height: 1.42857143;
   color: #333;
 }
+img {
+  vertical-align: middle;
+}
 
 ul {
   margin: 0px;
@@ -24,6 +27,9 @@ a {
   color: #333333;
   padding: 5px;
 }
+h2 {
+  margin: 0px;
+}
 
 li {
   list-style: none;
@@ -32,6 +38,10 @@ li {
 
 input {
   border: none;
+  outline: none;
+}
+button {
+  outline: none;
 }
 i {
   width: 20px;
@@ -55,8 +65,18 @@ i {
   height: 20px;
 }
 
+.kp-grid {
+  display: grid;
+}
+
 .kp-flex {
   display: flex;
+}
+.kp-align-start {
+  align-items: flex-start;
+}
+.kp-align-end {
+  align-items: flex-end;
 }
 
 .kp-align-center {
@@ -91,9 +111,6 @@ i {
   height: 30px;
   border-bottom: 1px solid rgb(4, 19, 4);
 }
-.kp-search-input:hover {
-  border: none;
-}
 
 .position-relative {
   position: relative;
@@ -104,6 +121,12 @@ i {
 }
 
 /* Custom Classes*/
+.container {
+  width: 1180px;
+  height: 135px;
+  margin: 0px 342px;
+  padding: 0px 20px;
+}
 
 .kp-logo img {
   width: 100px;
@@ -136,6 +159,7 @@ i {
   margin-left: 20px;
   background-image: url(../images/user-icon-brown.png);
 }
+
 .kp-icon-favori {
   width: 19px;
   height: 20px;
@@ -215,13 +239,15 @@ i {
   margin: 0px 342px;
   padding: 0px 20px;
 }
-.kp-nav2 ul li a {
-  color: #ffffff;
-  padding: 10px;
-}
+
 .kp-nav2 ul li {
   margin-top: 1px;
   margin-left: 10px;
+}
+
+.kp-nav2 ul li a {
+  color: #ffffff;
+  padding: 10px;
 }
 
 .kp-nav2 ul li a:hover {
@@ -229,6 +255,168 @@ i {
   color: black;
 }
 
-body {
-  background-image: url(https://i.redd.it/m2klgf846i801.jpg);
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 135px;
+  z-index: -1;
+  display: block;
+}
+.kp-bolme1 {
+  width: 560px;
+  height: 203px;
+  box-shadow: 1px -1px 28px 13px rgba(0, 0, 0, 0.39);
+}
+
+.row .column:first-child {
+  padding-left: 15px;
+}
+.row .column:nth-child(2) {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.containerBox .row {
+  width: 1180px;
+  height: 233px;
+  background: none;
+  padding: 0px;
+}
+
+.containerBox {
+  height: 233px;
+  position: relative;
+  bottom: 170px;
+  display: flex;
+  justify-content: center;
+}
+/* menu start */
+.showcase {
+  padding: 10px 0 35px;
+}
+.showcase .kp-menu {
+  padding: 15px 0;
+  height: 564px;
+}
+
+.showcase > .wrap > .inner {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.showcase .kp-menu .grid {
+  display: flex;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.showcase .kp-menu.four-break-three .grid .showcase-item:first-child {
+  width: 360px;
+}
+.showcase .kp-menu.four-break-three .grid .showcase-item {
+  flex-grow: 1;
+}
+.showcase .kp-menu .grid .showcase-item {
+  padding: 0 10px;
+}
+.showcase .kp-menu .grid .showcase-item a img {
+  width: 100%;
+  box-shadow: 0px 0px 25px 17px rgba(0, 0, 0, 0.13);
+}
+
+.showcase .kp-menu.four-break-three .grid .showcase-item:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 729px;
+}
+
+.showcase .box2 {
+  width: 100%;
+}
+
+.showcase-item .box1 {
+  width: 744.5px;
+  box-shadow: 0px 0px 25px 17px rgba(0, 0, 0, 0.13);
+}
+
+.showcase-item .box1 a img {
+  height: 256px;
+  background-size: cover;
+  box-shadow: 0px 0px 25px 17px rgba(0, 0, 0, 0.13);
+}
+.showcase-item .box2 a img {
+  height: 257px;
+  background-size: cover;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 25px 17px rgba(0, 0, 0, 0.13);
+}
+.showcase-item .box2 {
+  width: 744.5px;
+  padding: 10px 0 0 0;
+}
+.showcase-item:first-child {
+  padding: 0px 5px;
+}
+.showcase-item:nth-child(2) .box2 {
+  width: 744px;
+  height: 257px;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.showcase.kp-menu2 {
+  padding: 15px 0;
+}
+.showcase .kp-menu2 .grid2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 5px;
+}
+.grid2 .showcase-item a img {
+  width: 560px;
+  height: 193px;
+  background-size: cover;
+  box-shadow: 0px 0px 25px 17px rgba(0, 0, 0, 0.13);
+}
+/* menu end */
+
+/* brand tabs start */
+.brand-tabs {
+  width: 1864px;
+  height: 185px;
+  margin: 20px 0;
+  padding: 0px 342px;
+  background: url(../images/brand_background.png);
+}
+.brand-box {
+  display: flex;
+  flex-direction: row;
+  width: 1220px;
+  height: 185px;
+  margin: ;
+}
+.tabs-nav {
+  width: 1180px;
+  height: 42px;
+}
+.nav-bar3 li {
+  display: block;
+  padding: 10px 10px 0;
+}
+.loogobar {
+  width: 1180px;
+  height: 143px;
+}
+.logobar .kp-logo2 a img {
+  width: 157px;
+  height: 95px;
+  background-size: cover;
 }
