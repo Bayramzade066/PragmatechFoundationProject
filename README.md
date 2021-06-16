@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 ## Bayramov Məhəmməd
 
