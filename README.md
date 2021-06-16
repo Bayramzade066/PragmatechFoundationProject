@@ -10,11 +10,11 @@
 - Portfolio layihəsi
     - [Kodlar]()
     - html5,css3
-    - 0 saat
+    - İşin bitmə müddəti
 - Camping Layihəsi
     - [Kodlar]()
     - html5 css3
-    - İşin bitmə müddəti
+    - 10 gün
 
 ### Tədris müddətində yazdığım məqalələr
 - [Məqalə adı]()
