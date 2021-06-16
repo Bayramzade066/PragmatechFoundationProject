@@ -1,7 +1,5 @@
-
-=======
 ## Bayramov Məhəmməd
-
+  =======
   ###  Haqqımda qısa məlumat
   
 - Tədrisə başladığım tarix:21 May 2021
