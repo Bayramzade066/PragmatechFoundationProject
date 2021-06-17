@@ -1,3 +1,7 @@
-### Demo arastirma
+## etdiyim arastirmalar
 
-## Araşdırma detalları
+=======
+
+# Demo arastirma movzulari
+
+### Araşdırma detalları
