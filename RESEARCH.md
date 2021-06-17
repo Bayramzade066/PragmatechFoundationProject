@@ -1,4 +1,4 @@
-## etdiyim arastirmalar
+## etdiyim arasdirmalar
 
 
 ### Demo arastirma movzulari
