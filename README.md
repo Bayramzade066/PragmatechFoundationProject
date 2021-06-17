@@ -1,7 +1,4 @@
 
-
-
-=======
 ## Bayramov Məhəmməd
   =======
   ###  Haqqımda qısa məlumat
