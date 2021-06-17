@@ -18,7 +18,6 @@
   - [Kodlar]()
   - html5,css3
   - 0 saat
-- Camping Layihəsi
 
 - Camping Layihəsi
     - [Kodlar]()
