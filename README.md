@@ -19,13 +19,7 @@
   - html5,css3
   - 0 saat
 - Camping Layihəsi
-  - [Kodlar]()
-  - html5 css3
-  - İşin bitmə müddəti
-=======
-    - [Kodlar]()
-    - html5,css3
-    - İşin bitmə müddəti
+
 - Camping Layihəsi
     - [Kodlar]()
     - html5 css3
