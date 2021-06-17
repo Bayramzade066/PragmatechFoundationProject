@@ -2,5 +2,4 @@
 
 
 ## Demo arastirma movzulari
-
 ### Araşdırma detalları
