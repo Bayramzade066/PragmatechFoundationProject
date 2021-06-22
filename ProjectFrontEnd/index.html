@@ -1,46 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <!-- CSS only -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Bizi Unutma!</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <section id="header">
-            <div class="heading">
-                <div class="row">
-                    <div class="col-4"><img src="images/kamp_2016_logo_BW-300x300.png" alt=""></div>
-                    <div class="col-4"><input type="text" placeholder="ara"> <button type="submit" class=""></button></div>
-                    <div class="col-4 direction">
-                        <div class="row">  
-                        <div class="item-account"><i><img src="images/user-icon-brown.png" alt=""></i> <span>Hesabim</span> </div>
-                        <div class="item-account"><i></i> <span>Favorilerim</span></div>
-                        <div class="item-account"><i></i> <span>Elaqe</span></div>
-                        <div class="item-account"><i></i> <span>Canta</span></div>
-                    </div>
-                </div>
-                </div>
-                <div class="row">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+
+  <!-- Header start -->
+  <section id="Header">
+    <div class="header-img"><img src="images/0020039_kamp-malzemeleri.png"></div>
+    <div class="container d-flex flex-column justify-content-center align-center">
+      <div class="row d-flex  align-items-center text-center">
+        <div class="col-3 kp-flex text-start"><a href="index.html"><img src="images/kamp_2016_logo_BW-300x300.png" class="img-logo"></a></div>
+        <div class="col-5">
+          <div class="search-box"><input type="text" placeholder="Axtaris"> <span><i class="bi bi-search"></i></span></div>
+        </div>
+        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+          <div class="user p-3">
+            <div class="userbox"><a href="#"><i class="bi bi-person fs-4"></i><span><br> Hesabim </span></a>
+            <!-- login popup start -->
+            <div id="LoginPopup">
+              <div class="wrap">
+                <div class="forum d-flex flex-column">
+                  <input type="email" placeholder="e-poct">
+                  <input type="password" placeholder="Sifre">
+                  <div class="forum2 d-flex justify-content-between"><div class="checkbox"><input type="checkbox" name="rememberMe"><label for="rememberMe">Yadda Saxla</label>
+                  </div> <button type="submit" class="popUp-button">Giris</button></div>
+                </div> 
+              </div>
+              <div class="accountbuttons d-flex flex-row align-items-center">
+                <span><a href="#">Sifreni unutdum   </a></span>
+                <span><a href="#">|  Qeydiyyatdan kec</a></span>
+              </div>
             </div>
-        </section>
+            <!-- login popup end -->
+            </div>
+          </div>
+          <div class="user p-3">
+            <div class="userbox"><a href="favori.html"><i class="bi bi-star fs-4"></i><br> Favorilerim</a></div>
+          </div>
+          <div class="user p-3">
+            <div class="userbox"><a href="contact.html"><i class="bi bi-chat-dots fs-4"></i><br>Elaqe</a></div>
+          </div>
+          <div class="user p-3 userbox-bag">
+            <div class="userbox-bag"><a href="#"><i class="bi bi-cart3 fs-4"></i><br> Cantam</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row2 d-flex text-center">
+        <ul class="d-flex flex-row ">
+          <li><a href="#" class="nav-a">Kampciliq</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column">
+                <li><a href="#">Kamp Cadiri</a></li>
+                <li><a href="#">Yuxu Ekipmani</a></li>
+                <li><a href="#">Masa Oturacaq</a></li>
+                <li><a href="#">Kamp Metbexi</a></li>
+                <li><a href="#">Kampciliq Ekipmanlari</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Taktikal</a>
+            <div class="sub-menu-1 sub-2">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Airsoft Silahlar</a></li>
+                <li><a href="#">Herbi Geyimler</a></li>
+                <li><a href="#">Herbi Levazimatlar</a></li>
+                <li><a href="#">Taktikal optik esyalar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Geyim</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Geyim</a></li>
+                <li><a href="#">Col Geyim</a></li>
+                <li><a href="#">ic geyim & Corab</a></li>
+                <li><a href="#">Aksesuarlar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Ayaqqabi</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column">
+                <li><a href="#">Su Kecirmez botlar</a></li>
+                <li><a href="#">Outdoor Botlar</a></li>
+                <li><a href="#">Outdoor Ayaqqabilar</a></li>
+                <li><a href="#">Ayaqqabi aksesuarlari</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Kamp Cantasi</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Bel Cantasi</a></li>
+                <li><a href="#">El Cantasi</a></li>
+                <li><a href="#">Diger Cantalar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Uzguculuk</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Uzguculuk Geyimleri</a></li>
+                <li><a href="#">Uzguculuk Levazimatlari</a></li>
+                <li><a href="#">Uzguculuk Aksesuarlari</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Ovculuq</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Ov Aksesuarlari</a></li>
+                <li><a href="#">Ov geyimleri</a></li>
+                <li><a href="#">Botlar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Aksessuarlar</a>
+            <div class="sub-menu-1">
+              <ul class="d-flex flex-column ">
+                <li><a href="#">Bicaq, Balta</a></li>
+                <li><a href="#">Optik Durbunler</a></li>
+                <li><a href="#">Qol Saatlari ve Elektronik</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" class="nav-a">Yeni Mehsullar</a></li>
+        </ul>
+      </div>
     </div>
+  </section>
+  <!-- Header end -->
+
+  <!-- menu start -->
+<div class="showcase-overslider">
+  <div class="wrap d-flex justify-content-center">
+    <div class="inner">
+      <div class="bolme-2">
+        <div class="grid d-flex flex-row">
+         <div class="showcase-item"><a href="#"><img src="images/0023836_salomon-ayakkabilar.png" alt=""></a></div>
+         <div class="showcase-item"><a href="#"><img src="images/0023837_the-north-face.png" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="showcase">
+  <div class="wrap d-flex justify-content-center">
+    <div class="inner">
+      <div class="4bolme">
+        <div class="grid d-flex flex-row">
+          <div class="showcase-item"><a href="#"><img src="images/0023569_ucuz-outdoor-indirimleri.png" alt=""></a></div>
+        <div class="showcase-item d-flex flex-column ">
+            <div class="box d-flex flex-row w-100"><a href="#"><img src="images/0023346_cadirlar.png" alt=""></a></div>
+          <div class="box d-flex flex-row"><a href="#"><img src="images/0023340_outdoor-ayakkabi.png" alt=""></a> <a href="#" class="p-0"><img src="images/0023339_outdoor-giyim.png" alt=""></a></div>
+      </div>
+      </div>
+        </div>
+      <div class="bolme2">
+        <div class="grid d-flex flex-row justify-content-center">
+          <div class="showcase-item"><a href="#"><img src="images/0023347_kamp-ekipmanlari.png" alt=""></a></div>
+          <div class="showcase-item"><a href="#"><img src="images/0023345_cantalar.png" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="brand-tabs p-1">
+  <div class="wrap d-flex justify-content-center">
+    <div class="inner d-flex flex-column">
+      <ul class="nav nav-tabs d-flex">
+        <li><a href="#">Mehsur Markalar</a></li>
+        <li><a href="#">Butun Markalar</a></li>
+      </ul>
+      <div class="tab-content p-1">
+        <div class="popuplar-brands d-flex flex-row ">
+          <div class="brand-box d-flex align-items-center"><img src="images/0022762_upland.png" style="width: 197; height: 95px;"></div>
+          <div class="brand-box d-flex align-items-center"><img src="images/0002834_the-north-face.png" style="width: 197; height: 95px;"></div>
+          <div class="brand-box d-flex align-items-center"><img src="images/0002833_salomon.png" style="width: 197; height: 95px;"></div>
+          <div class="brand-box d-flex align-items-center"><img src="images/0002836_husky.png" style="width: 197; height: 95px;"></div>
+          <div class="brand-box d-flex align-items-center"><img src="images/0022763_stanley.png" style="width: 197; height: 95px;"></div>
+          <div class="brand-box d-flex align-items-center"><img src="images/0002837_helly-hansen.png" style="width: 197; height: 95px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blog-view">
+  <div class="title d-flex flex-row"><h5>Blog yazilari</h5><div class="borderpx m-3"></div></div>
+  <div class="content d-flex flex-row">
+    <div class="preview" style="object-fit: cover;"><img src="images/0003237.png"></div>
+    <ul>
+      <li><a href="#">Su kecirmez mont ve Yagisliq secimi</a></li>
+      <li><a href="#">Outdoor Ayaqqabi secimi nece edilir</a></li>
+      <li><a href="#">Cadir secimini nece etmeli?</a></li>
+      <li><a href="#">Yuxu tulumu nece yigilir?</a></li>
+      <li><a href="#">En asand yolla nece kampa gediler?</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="newsletter">
+  <div class="wrap d-flex">
+    <div class="inner d-flex justify-content-center align-items-center">
+      <div class="newsletter-logo"></div>
+      <div class="newsletter-subscribe d-flex flex-row justify-content-between" >
+        
+        <div class="text"><p style="font-size: 14px;">E-Posta listesine kaydolarak kampanyalardan haberdar olun !</p></div>
+        <div class="input-group"><input type="email" placeholder="e-poct adresinizi yazin" style="border-radius: 0 !important; border: 0 !important; width:314px; height: 40px; background: #fff;"> <button style="background: #7db927; color: #fff; border: 0 !important; width: 77px; height: 40px;">Saxla</button></div>
+      </div>
+      <a class="get-notifications" href="#"><span>Bildirim al!</span></a>
+    </div>
+  </div>
+</div>
+
+  <!-- menu end -->
+
+  <!-- footer start -->
+  <div class="iconic">
+    <div class="wrap d-flex justify-content-center">
+      <div class="inner d-flex flex-row">
+        <div class="item-2 d-flex align-items-center">
+          <a href="#" class="text">Destek</a>
+          <a href="#" class="icons1"><img src="images/info-support-icon.png" alt=""></a>
+        </div>
+        <div class="item-2 d-flex align-items-center">
+          <a href="#" class="text">Elaqe</a>
+          <a href="#" class="icons2"><img src="images/info-contact-bg.png" alt=""></a>
+        </div>
+        <div class="item-2 d-flex align-items-center">
+          <a href="#" class="text">Blog</a>
+          <a href="#" class="icons3"><img src="images/info-blog-bg.png" alt=""></a>
+        </div>
+        <div class="item-2 d-flex align-items-center">
+          <a href="#" class="text">Alisveris Rehberi</a>
+          <a href="#" class="icons4"><img src="images/info-shop-bg.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="wrap d-flex justify-content-center">
+      <div class="inner d-flex flex-row">
+        <div class="item"> <div class="title">Kamperest.com</div>
+          <ul class="d-flex flex-column">
+            <li><a href="#">Haqqimizda</a></li>
+            <li><a href="#">Mesafeli satis sozlesmesi</a></li>
+            <li><a href="#">uyelik sozlesmesi</a></li>
+            <li><a href="#">Banka Hesaplarimiz</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Elaqe</a></li>
+        </ul>
+        </div>
+        <div class="item"><div class="title">Musteri Xidmetleri</div>
+        <ul class="d-flex flex-column">
+          <li><a href="#">Teslimat & iade</a></li>
+          <li><a href="#">six sorusulan suallar</a></li>
+          <li><a href="#">Gizlilik sozlesmesi</a></li>
+          <li><a href="#">istifade qaydalari</a></li>
+      </ul>
+        </div>
+        <div class="item"></div>
+        <div class="item"><div class="title">Sosial Mediyada Biz</div>
+        <ul class="social d-flex flex-row">
+          <li class="media"><a href="#" class="p-2"><i class="bi bi-facebook"></i></a></li>
+          <li class="media"><a href="#" class="p-2"><i class="bi bi-twitter"></i></a></li>
+          <li class="media"><a href="#" class="p-2"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="wrap d-flex justify-content-center">
+        <div class="inner d-flex flex-row justify-content-between">
+          <div class="copytext p-2">
+            Copyright © 2021 Kamperest. Tüm hakları saklıdır.
+            <span class="faprika-icon"><img src="images/faprika-logo.png" title="Faprika"></span>
+            </div>
+            <div class="bank">
+              <img src="images/bankicons.jpg" title="bank">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
 </body>
+
 </html>

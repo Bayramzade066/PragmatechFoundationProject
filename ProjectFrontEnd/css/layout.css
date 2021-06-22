@@ -59,3 +59,39 @@
 .col-12 {
   width: calc(100% / 12 * 12);
 }
+
+/* */
+
+.iconic {
+  box-sizing: border-box;
+  position: relative;
+  bottom: 60%;
+}
+.iconic .inner {
+  background: #fff;
+  height: 90px;
+  padding: 0px 20px;
+}
+.item-2 {
+  width: 25%;
+  margin: 15px;
+  background: #7db927;
+  object-fit: cover;
+}
+.item-2 .icons {
+  background: url(../images/info-support-icon.png) no-repeat center top;
+  background-size: cover;
+  margin-left: 47%;
+  padding: 12%;
+}
+.item-2 .icons2 {
+  background: url(../images/info-contact-bg.png) no-repeat center top;
+  background-size: cover;
+  margin-left: 48%;
+  padding: 12%;
+}
+.item-2 a:first-child {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
