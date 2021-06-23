@@ -16,11 +16,11 @@ li {
 
 /* Nav bar classes start */
 .container {
-  width: 1200px;
+  width: 1140px;
   background: whitesmoke;
   position: absolute;
   top: 0;
-  left: 300px;
+  left: 19%;
   margin: 0 auto;
   padding: 0;
   height: 90px;
@@ -73,15 +73,19 @@ li {
   object-fit: cover;
 }
 .header-img {
-  width: 100vw;
+  width: 1864px;
   position: relative;
   object-fit: cover;
   overflow: auto;
 }
+.header-img img {
+  width: 100%;
+}
+
 .row2 {
   position: absolute;
   top: 10.5%;
-  left: 15.98%;
+  left: 19%;
 }
 
 .row2 ul li {
