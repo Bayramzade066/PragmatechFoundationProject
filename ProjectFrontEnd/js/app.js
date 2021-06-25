@@ -11,7 +11,8 @@ console.log(a);
 // -------------
 
 let b = 20;
-let b = 30;
+// let b = 30; yanlis
+
 
 console.log(b);
 
@@ -28,7 +29,7 @@ const d = 100;
 
 d = 110;
 
-const d = 150;
+// const d = 150;
 
 console.log(d);
 
@@ -65,7 +66,7 @@ console.clear();
 // primitive novleri
 
 var a = true;
-var b = false;
+// var b = false;
 // boolean
 
 console.log(typeof a);
@@ -146,7 +147,9 @@ value = value1 + value2;
 value = value1 - value2;
 value = value1 * value2;
 value = value1 / value2;
+
 value = value1 % value2;
+console.log(value);
 
 value = Math.PI;
 value = Math.E;
