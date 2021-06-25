@@ -12,4 +12,16 @@
 
 ## data types in javascript
 
-### Javascriptin 2 data tipi var pirimitive ve reference. pirimitive data tipinin novleri:number,stringe,null,undifiend,boolean|| reference data tipinin novleri:
+### Javascriptin 2 data tipi var pirimitive ve reference. pirimitive data tipinin novleri:number,stringe,null,undifiend,boolean|| reference data tipinin novleri:array,function,object
+
+## logical operators
+
+### logical operatorlar 3 yere bolunur: OR || , AND && , NOT !, OR yeni veya oldugda 2 terefden 1i true dirse netice true cixacaq yalnizca (False || False) olduqda netice false cixacaq. and olduqda ise bunun tam eksi sayilar yeni daxilinde false varsa netice false cixacaq 2 terefde true olarsa (True && True) netice true olacaq. Not ise neticeni eksine cevirir yeni False ! olsa True olacaq True ! olarsa netice False olacaq. !! olduqda ise netice tam dovr ederek yeniden eyni neticeni qaytarir yeni false !! olduqda true sonra yeniden False olur ve netice false cixir.
+
+## Arithmetic operators(modulus.increment,decrement)
+
+### aritmetic operatorlar hesablama islerini gormek ucun istifade oluna biler. Modulus terefleri boldukden sonra yaranan qaliqi gosterir yeni ex:(let = value; const a = 10; ; const b = 3; value = a % b; console.log(value)); bu halda netice consolda 1 gorsenecek yeni 10/3 cavab 3 olur qaliq ise 1 qalir modulusda qaliqi consola yazir. diger butun hesablamalarda bu mentiqle hell olunur ( + - / ).
+
+## Difference between arrays which are declared with let and const?
+
+### aralarindaki ferq ondan ibaretdirki let istifade olundugda biz array-in daxilindeki elementlerede, let-in oz elementlerinede yeni deyer elave ede bilerik. Lakin const istifade etdikde array-in daxilindeki elementlere yeni element elave etmek olsa da const-un ozune hec cur yeni element elave etmek olmur.
