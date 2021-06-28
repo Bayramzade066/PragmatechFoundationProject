@@ -109,7 +109,7 @@ console.log(salam);
 alert( true || true );
 
 
-let saat = 9;
+let saat = new Date();
 
 if (saat < 10 || saat > 18) {
   alert( 'Ofis baglidir' );
@@ -131,7 +131,7 @@ if (saat == 12 && deqiqe == 30) {
 
 alert( !true ); // false
 
-alert( !!"Boş olmayan karakter dizisi" ); // true
+alert( !!"Boş olmayan" ); // true
 
 
 

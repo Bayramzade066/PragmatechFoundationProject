@@ -25,3 +25,11 @@
 ## Difference between arrays which are declared with let and const?
 
 ### aralarindaki ferq ondan ibaretdirki let istifade olundugda biz array-in daxilindeki elementlerede, let-in oz elementlerinede yeni deyer elave ede bilerik. Lakin const istifade etdikde array-in daxilindeki elementlere yeni element elave etmek olsa da const-un ozune hec cur yeni element elave etmek olmur.
+
+## Difference between for, for in, foreach,for of, while.
+
+### ilk once for ve while dovru arasindaki ferqden danisacam. for dovrunde dovrun nece artaraq davam edeceyi for-un paramterleri daxilinde qeyd edilir lakin while dovrunde artib veya azalacaqi dovrun daxilinde istenilen formada deyisdirile biler.Bu dovrler oldugu halda nie for in, for of, forEach kimi dovrlere ehtiyac duyulur? bu dovrlerin digerlerinden ferqi ondan ibaretdir ki, array ve s. daxilindeki elementler daha elcatan olur ve bunlar ucun istifadesi daha mentiqlidi.
+
+## Difference between promt, confirm, alert
+
+### Bunlar javascriptin bildiris emrleri ucun istifade olunur. 1ci-alert i qeyd edek alert xeberdarliq bildirimi ucun istifade olunur sehifede xeberdarliq bildirisi gondermek istediyiniz zaman alertin daxiline xeberdarliq melumatinida yazaraq ex:alert("bu xeberdarliqdi") seklinde emri yerine yetirmek mumkundur.2ci-confirm her hansi bir melumati deqiqlesdirmek(tesdiqlemek) ucun istifade olunur. confirmin secenekleri olur eger tesdiqleyerse true, tesdiqlemezse false olur.3cusu ise promtdur. promt istifadeciden her hansi bir melumat almaq ucun istifade olunur.

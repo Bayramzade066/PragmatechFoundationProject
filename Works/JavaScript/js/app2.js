@@ -35,7 +35,7 @@ console.log( array );
 array.pop();
 console.log( array );
 // ---------------------
-array.splice(2,0, 'Moscow','Ankara');
+array.splice(2,1, 'Moscow','Ankara');
 console.log(array);
 // ---------------------
 array.splice(2,0, 'Bmw','Audi');
@@ -64,7 +64,7 @@ console.log(randomeded(50,200));
 // ---------------------
 function square(x){
     return x*x
-}
+};
 // -------------
 function cube(x){
     return x*x*x
