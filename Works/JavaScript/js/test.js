@@ -1,4 +1,4 @@
-const arr = ["java","Python","javascript"];
+// const arr = ["java","Python","javascript"];
 
 // let index = 0
 
@@ -29,3 +29,4 @@ const arr = ["java","Python","javascript"];
 // if (saat <  || saat > 1) {
 //   alert( 'Ofis baglidir' );
 // }
+

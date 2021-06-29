@@ -58,16 +58,19 @@
 // console.log(arr)
 
 // // 7ci-sual funksiya yazin arrayin daxilinde tipleri number string object boolean olanlari consolda gostersin
-// let arr = [25,95,'test','php', true,{},129,'javascript'];
+let arr = [25,95,'test','php', true,{},129,'javascript'];
 
-// function type(number, string, object, boolean){
-// for(let i = 0;i<arr.length;i++){
-    
-// }};
+function type (a){
+    for(i = 0; i< arr.length;i++){
+        if(typeof a == typeof arr[i]){
+            console.log(typeof arr[i], arr[i]);
+        }else{
+            console.log(arr[i])
+        }
+    }
+};
 
-var person = {name:'murad'}
-let age = [18,20,19];
-console.log(person,'yas ' + age[0])
+type('string')
 
 
 
