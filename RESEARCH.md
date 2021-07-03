@@ -33,3 +33,7 @@
 ## Difference between promt, confirm, alert
 
 ### Bunlar javascriptin bildiris emrleri ucun istifade olunur. 1ci-alert i qeyd edek alert xeberdarliq bildirimi ucun istifade olunur sehifede xeberdarliq bildirisi gondermek istediyiniz zaman alertin daxiline xeberdarliq melumatinida yazaraq ex:alert("bu xeberdarliqdi") seklinde emri yerine yetirmek mumkundur.2ci-confirm her hansi bir melumati deqiqlesdirmek(tesdiqlemek) ucun istifade olunur. confirmin secenekleri olur eger tesdiqleyerse true, tesdiqlemezse false olur.3cusu ise promtdur. promt istifadeciden her hansi bir melumat almaq ucun istifade olunur.
+
+## Difference between innerHtml,innerText,textContent?
+
+### aralarindaki ferqler sadece gorunusde deyisir. biz innerText ile her hansi bir yazini oturdukde yazi htmlde oldugu kimi (script ve style taglari xaric) gosterilir. yeni egeer yazinin daxilinde bosluq, span ve ya basqa bir tag yazilibsa onuda yazildigi kimi goruntuleyir. InnerHtml de ise bu tag leri ve aradaki bosluqlari goruntuluyerken gizledir. textContentin bu 2sinden ferqi ise ondadir ki, bosluqlari gosterdiyi halda tag-leri ve onlarin daxilindeki yazini ve s. goruntulemir.

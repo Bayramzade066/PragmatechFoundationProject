@@ -12,23 +12,24 @@ let arr = [2,6,32,95,44,62,94];
 
 for(let i = 0;i<arr.length;i++){
     if(arr[i]%3){
-       console.log(arr[i],'qaliqla bolunur')
+        console.log(arr[i],'qaliqla bolunur')
     }else if(arr[i]/3){
         console.log(arr[i],"qaliqsiz")
     }
 };
 
 
-
-
 // 3cu-sual 50den kicik olan butun ededler consolda goster
 
 let arr = [2,6,32,95,44,62,94];
+let ar1 = [];
+let ar2 = [];
 for(let i = 0; i<arr.length; i++){
     if(arr[i]<= 50){
+        ar1.push(arr[i])
         console.log(arr[i])
-        
     }else{
+        ar2.push(arr[i])
         console.log('50den boyukdur')
     }
 
@@ -38,7 +39,7 @@ for(let i = 0; i<arr.length; i++){
 let arr = [2,6,32,95,44,62,94];
 
 for(let i = 0;i<arr.length;i++){
-    if(arr[i]<35 == 70<arr[i]){
+    if(arr[i]<100 && 200<arr[i]){
         console.log(arr[i])
     }
 };
@@ -58,19 +59,31 @@ arr.splice(0,1,'PHP','Python');
 console.log(arr)
 
 // 7ci-sual funksiya yazin arrayin daxilinde tipleri number string object boolean olanlari consolda gostersin
-let arr = [25,95,'test','php', true,{},129,'javascript'];
+let array = [25, 95, 'test', 'php', true, {}, 129, 'javascript'];
 
-function type (a){
-    for(i = 0; i< arr.length;i++){
-        if(typeof a == typeof arr[i]){
-            console.log(typeof arr[i], arr[i]);
-        }else{
-            console.log(arr[i])
+
+// Return catdigi an islem dayanir ve ondan sonra bir emeliyyat bas vermir
+
+function type(arr, a) {
+    let arrayNew = [];
+    for (i = 0; i < arr.length; i++) {
+        if (a == typeof arr[i]) {
+            arrayNew.push(arr[i])
         }
     }
+    return arrayNew;
 };
 
-type('string')
+
+
+let number = type(array, "number");
+console.log(number);
+let string = type(array, "string");
+console.log(string);
+let object = type(array, "object");
+console.log(object);
+let boolean = type(array, "boolean");
+console.log(boolean);
 
 
 
