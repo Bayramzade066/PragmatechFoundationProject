@@ -156,12 +156,18 @@
 //         b = parseInt(b)
 //     }
 // }
+// let arr = [];
+// for(i =10; i<= 99; i++){
+//     console.log("" + i)
+// }
+let text = "";
+const fruits = ["apple","orange","cherry","banana"];
+fruits.forEach(arrfunc);
+
+document.querySelector('#demo').innerHTML = text;
 
 
-let arr = [2,6,32,95,44,62,94];
-
-for(let i = 0;i<arr.length;i++){
-    if(arr[i]<100 && 200<arr[i]){
-        console.log(arr[i])
-    }
-};
+function arrfunc(x,y){
+    text += y + ":" + x + "<br>";
+    
+}
