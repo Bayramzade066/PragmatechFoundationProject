@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.block {
+  /* border: 1px solid whitesmoke; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.miniBlock {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}

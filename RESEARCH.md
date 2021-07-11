@@ -36,4 +36,4 @@
 
 ## Difference between innerHtml,innerText,textContent?
 
-### aralarindaki ferqler sadece gorunusde deyisir. biz innerText ile her hansi bir yazini oturdukde yazi htmlde oldugu kimi (script ve style taglari xaric) gosterilir. yeni egeer yazinin daxilinde bosluq, span ve ya basqa bir tag yazilibsa onuda yazildigi kimi goruntuleyir. InnerHtml de ise bu tag leri ve aradaki bosluqlari goruntuluyerken gizledir. textContentin bu 2sinden ferqi ise ondadir ki, bosluqlari gosterdiyi halda tag-leri ve onlarin daxilindeki yazini ve s. goruntulemir.
+### aralarindaki ferqler sadece gorunusde deyisir. biz innerText ile her hansi bir yazini oturdukde yazi htmlde oldugu kimi (script ve style taglari xaric) gosterilir. yeni eger yazinin daxilinde bosluq, span ve ya basqa bir tag yazilibsa onuda yazildigi kimi goruntuleyir. InnerHtml de ise bu tag leri ve aradaki bosluqlari goruntuluyerken gizledir. textContentin bu 2sinden ferqi ise ondadir ki, bosluqlari gosterdiyi halda tag-leri ve onlarin daxilindeki yazini ve s. goruntulemir.

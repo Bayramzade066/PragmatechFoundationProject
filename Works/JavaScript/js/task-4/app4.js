@@ -5,12 +5,11 @@ document.querySelector('body').appendChild(div);
 
 div.classList.add('block');
 
-div.setAttribute('style','size:400px');
+// div.setAttribute('style','size:400px');
 
-for(i = 0; i< 10;i++){
+for(i = 0; i< 12;i++){
     let child = document.createElement('div');
     document.querySelector('.block').appendChild(child);
     child.classList.add('miniBlock');
     child.innerText = i +1;
-    
 }
