@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+}
+body{
+    background-color: rgb(68, 52, 52);
+}
+p{
+    font-weight: bold;
+    
+}
+.btn{
+    background-color: rgb(33, 78, 63);
+    border: unset;
+    width: 120px;
+    height: 40px;
+}
